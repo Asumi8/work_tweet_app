@@ -6,6 +6,7 @@ class BlogsController < ApplicationController
 
   def new 
     @blog = Blog.new
+    byebug
   end
 
   def create  
